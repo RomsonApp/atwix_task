@@ -1,0 +1,15 @@
+{
+    "name": "romsonapp/atwix_test",
+    "authors": [
+        {
+            "name": "Vladyslav Cherepenia",
+            "email": "romsonapp@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "Atwix/"
+        ]
+    }
+}
