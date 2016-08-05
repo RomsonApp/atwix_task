@@ -20,7 +20,7 @@ class Example
         return $this->_names;
     }
 
-    public function getSortedNames()
+    public function renderNamesSorted()
     {
         $names = $this->getNames();
 
@@ -31,11 +31,6 @@ class Example
         foreach ($names as $name) {
             $logger->info($name, __LINE__);
         }
-        return $names;
-    }
-
-    public function renderNames()
-    {
-        return join(',', $this->getSortedNames());
+        return join(',', $names);
     }
 }

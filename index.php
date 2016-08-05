@@ -14,7 +14,7 @@ $names = array(
 $example = new Example($names);
 
 printf("<strong>Sorted List:</strong><p>%s</p>",
-    $example->renderNames()
+    $example->renderNamesSorted()
 );
 
 printf("<strong>%s:</strong><pre>%s</pre>",
